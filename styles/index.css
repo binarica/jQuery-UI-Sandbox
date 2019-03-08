@@ -1,0 +1,25 @@
+body {
+  background: #f5f5f5;
+}
+
+.ui-menu {
+  width: 200px;
+}
+
+.ui-widget-header, label.error:before {
+  padding: 0.2em;
+}
+
+label.error {
+  color: red;
+  font-style: italic;
+}
+
+#tabs label.error:before {
+  content: " ";
+  display: block;
+}
+
+input.error {
+  border: 1px dotted red;
+}
